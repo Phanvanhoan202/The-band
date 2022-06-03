@@ -1,0 +1,116 @@
+/* PC */
+@media (min-width: 64em)
+{
+    
+}
+
+/* TABLET && MOBILE */
+@media (max-width:63.9375em)
+{
+    #nav .subnav li a{
+        padding:14px 12px;
+    }
+
+    .btn{
+        padding: 16px 16px;
+    }
+
+    .contact-list .form-control{
+        padding: 14px 4px;
+        font-size: 16px;
+        
+    }
+    .contact-submit-btn{
+        font-size: 16px;
+    } 
+
+    #content .contact-info {
+        line-height:2;
+    }
+
+    #footer .socials-list {
+        font-size: 32px;
+        
+    }
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+
+    #footer .copyright a{
+        padding: 16px 0;
+        display: inline-block;
+    }
+}
+
+
+
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width:63.9375em)
+{
+    
+}
+
+
+
+/* MOBILE */
+@media (max-width: 46.1875em)
+{  
+     /* common */
+    .s-full-width,
+    .s-col-full{
+    width: 100% !important;
+    }
+    
+    .s-mt-8{
+        padding-top: 8px !important;
+    }
+    .s-mt-16{
+        padding-top: 8px !important;
+    }
+
+    /**/
+    #header .search-btn {
+    display: none;
+}
+    #header{
+        overflow: hidden;
+        z-index: 1;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #nav{
+    display: block;
+    }
+    
+    #nav > li{
+        display: block;
+    }
+
+    /* Lấy li đầu tiên là con của nav*/
+    #nav > li:first-child{          
+        display: inline-block;
+    }
+
+    
+    #nav .subnav {
+        position: inherit;
+        background-color: #333;
+    }
+    #nav .subnav li a {
+        padding: 14px 36px;
+        color: #fff;
+    }
+
+    
+    #content .member-avt{
+        width: 60%;
+    }
+
+    .contact-from{
+        margin-top: 32px;
+    }
+   
+}
